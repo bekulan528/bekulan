@@ -1,0 +1,300 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+.beka1{
+    height: 500px;
+    background-color: brown;
+    width: 25%;
+}
+
+.beka2{
+    height: 500px;
+    background-color: rgb(52, 12, 90);
+    width: 25%;
+}
+
+.beka3{
+    height: 500px;
+    background-color: rgb(212, 191, 0);
+    width: 25%;
+}
+
+.beka4{
+    height: 500px;
+    background-color: rgb(109, 151, 10);
+    width: 25%;
+}
+
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+.beka1 li{
+
+    background-color:blanchedalmond;/*цвет фона*/
+    line-height: 2em; /*межстрочный интервал*/
+    margin-top: 10px;/*отступ верхней стороны для каждого блока*/
+    padding-left: 10px;/*отступ с левой стороны */
+    border-radius: 3em;/*округление углов*/
+    width: 60%;/*ширина*/
+    height: 50px;/*высота*/
+    list-style-type: square;/*тип маркера*/
+    list-style-position: inside;/*расположение маркера*/
+    list-style-type: "\1F44D";
+}
+
+
+.beka1 li:hover{
+    background-color:rgb(42, 75, 165);
+    color:white;
+    list-style-type:"\274C";
+    width: 70%;
+    height: 70px;
+}
+
+.beka2 li{
+
+    background-color:blanchedalmond;/*цвет фона*/
+    line-height: 2em; /*межстрочный интервал*/
+    margin-top: 10px;/*отступ верхней стороны для каждого блока*/
+    padding-left: 10px;/*отступ с левой стороны */
+    border-radius: 3em;/*округление углов*/
+    width: 60%;/*ширина*/
+    height: 50px;/*высота*/
+    list-style-type: square;/*тип маркера*/
+    list-style-position: inside;/*расположение маркера*/
+    list-style-type: "\1F44D";
+}
+
+.beka2 li:hover{
+    background-color:brown;
+    color:white;
+    list-style-type:"\274C";
+    width: 70%;
+    height: 70px;
+}
+
+.beka3 li{
+
+    background-color:blanchedalmond;/*цвет фона*/
+    line-height: 2em; /*межстрочный интервал*/
+    margin-top: 10px;/*отступ верхней стороны для каждого блока*/
+    padding-left: 10px;/*отступ с левой стороны */
+    border-radius: 3em;/*округление углов*/
+    width: 60%;/*ширина*/
+    height: 50px;/*высота*/
+    list-style-type: square;/*тип маркера*/
+    list-style-position: inside;/*расположение маркера*/
+    list-style-type: "\1F44D";
+}
+
+.beka3 li:hover{
+    background-color:brown;
+    color:white;
+    list-style-type:"\274C";
+    width: 70%;
+    height: 70px;
+}
+
+.beka4 li{
+
+    background-color:blanchedalmond;/*цвет фона*/
+    line-height: 2em; /*межстрочный интервал*/
+    margin-top: 10px;/*отступ верхней стороны для каждого блока*/
+    padding-left: 10px;/*отступ с левой стороны */
+    border-radius: 3em;/*округление углов*/
+    width: 60%;/*ширина*/
+    height: 60px;/*высота*/
+    list-style-type: square;/*тип маркера*/
+    list-style-position: inside;/*расположение маркера*/
+    list-style-type: "\1F44D";
+}
+
+.beka4 li:hover{
+    background-color:brown;
+    color:white;
+    list-style-type:"\274C";
+    width: 70%;
+    height: 70px;
+}
+
+.block1{background: linear-gradient( to left, green, blue);
+    width: 100px;
+    height: 50px;   
+
+
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    font-size: 20px;
+    width: 75%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: beige;
+    padding: 8px 16px;
+    float: left;
+}
+
+.nav a:hover{
+    background-color: beige;
+    color: black;
+}
+
+
+
+.beka5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: aqua;
+}
+
+.ccc{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+
+}
+
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(0, 148, 148);
+    color: cadetblue;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;  
+    border: none;
+    display: inline-block;
+    border-radius: 12px; 
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: coral;
+    color: crimson;
+    border: 5px;
+}
+
+.btn1:active{
+    background-color: darkblue;
+    color: green;
+}
+
+.b1{
+    width: 100px;
+    height: 300px;
+    background-color: crimson;
+    animation-name: widght;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes widght{
+    0%{width: 10px;}
+
+    25%{width: 50px;}
+
+    50%{width: 100px;}
+
+    75%{width: 200px;}
+     
+    100%{width: 400px;}
+}
+
+form{
+    width:50vh;
+    float: right;
+    display: flex;
+}
+
+input{
+    padding: 10px 20px;   /*Внутренний отсуп сверху и снизу по 10, а по бокам 20*/
+    border: 1px;          /*Рамка */
+    font-size: 20px;      /*Размер текста*/
+}
+
+.search{
+    width: 100%;
+}
+
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
+
+.button:hover{        /*Стиль при наведение курсором*/
+    cursor: pointer;  /*Тип стрелки*/
+    background-color: aquamarine;
+    color: beige;
+}
